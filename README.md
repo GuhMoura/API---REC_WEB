@@ -37,11 +37,15 @@ Rota (Endpoint)
 
 Descrição da Funcionalidade
 
+-------------------------------------------
+
 *POST* -> Criar
 
 /tasks
 
 Cria uma nova tarefa.
+
+-------------------------------------------
 
 *GET* -> Listar
 
@@ -49,17 +53,23 @@ Cria uma nova tarefa.
 
 Lista todas as tarefas cadastradas.
 
+-------------------------------------------
+
 *PUT* -> Atualiza/Substitui
 
 /tasks/:id
 
 Atualiza uma tarefa existente pelo seu ID.
 
+-------------------------------------------
+
 *DELETE* -> Remove
 
 /tasks/:id
 
 Exclui uma tarefa existente pelo seu ID.
+
+-------------------------------------------
 
 6. Exemplo de JSON para Envio
 Para criar ou atualizar uma tarefa, você precisará enviar um objeto JSON no corpo (body) da requisição.
