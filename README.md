@@ -130,3 +130,34 @@ Selecione o método DELETE.
 Insira a URL com o ID da tarefa que deseja excluir: http://localhost:3000/tasks/SEU_ID_AQUI.
 
 Clique em Send. A resposta deve ter o status 204 No Content, indicando sucesso.
+
+-------------------------------------------------------------------------------------------------
+
+Testes da API com Postman (Prints)
+Abaixo estão os resultados dos testes de cada endpoint da API, conforme solicitado.
+
+1. Criar Tarefa (POST /tasks)
+Descrição: Requisição para criar uma nova tarefa enviando title e description no corpo da requisição. A API retorna a tarefa criada com um ID único e status 201 Created.
+
+<img width="1274" height="727" alt="post" src="https://github.com/user-attachments/assets/7293ccd4-bc34-4012-8538-da54e24d892f" />
+<img width="1271" height="727" alt="Post Preview" src="https://github.com/user-attachments/assets/57da8609-a9ae-4fb2-8644-e098a024d67e" />
+
+
+2. Listar Tarefas (GET /tasks)
+Descrição: Requisição para listar todas as tarefas existentes. A API retorna um array contendo os objetos das tarefas e status 200 OK.
+
+<img width="1273" height="725" alt="GET NOVO" src="https://github.com/user-attachments/assets/d477dad8-6b46-452f-bada-7ab25105ffc0" />
+
+
+3. Atualizar Tarefa (PUT /tasks/:id)
+Descrição: Requisição para atualizar uma tarefa específica, identificada pelo seu ID na URL. Os dados a serem modificados são enviados no corpo da requisição. A API retorna a tarefa atualizada e status 200 OK.
+
+<img width="1271" height="723" alt="GET" src="https://github.com/user-attachments/assets/085dbc7f-48bc-4e19-8873-42eb28053dfe" />
+<img width="1271" height="723" alt="GET" src="https://github.com/user-attachments/assets/60276f4e-ec50-4973-82be-348cfb24ebd6" />
+
+
+4. Excluir Tarefa (DELETE /tasks/:id)
+Descrição: Requisição para excluir uma tarefa específica, identificada pelo seu ID na URL. A API retorna um corpo vazio e o status 204 No Content, indicando que a operação foi bem-sucedida.
+
+<img width="1268" height="719" alt="DELETE" src="https://github.com/user-attachments/assets/e272d35b-dcaa-43de-9d6d-401b1412565d" />
+
